@@ -26,9 +26,9 @@ At the core of M3/VARS is a suite of web services. These services can be started
 
 These applications are used for various annotation operations.
 
+- [jsharktopda](https://github.com/mbari-org/jsharktopoda) - A cross-platform (MacOS, Windows, Linux) video player that integrates with vars-annotation.
 - [mondrian](https://github.com/mbari-org/mondrian) - An image annotation application (alpha-release)
+- [Sharktopda](https://github.com/mbari-org/Sharktopoda) - A MacOS video player that integrates with vars-annotation. Allows users to localized annotations using bounding boxes by drawing directly on the video.
 - [vars-annotation](https://github.com/mbari-org/vars-annotation) - A video annotation application
-  - [Sharktopda](https://github.com/mbari-org/Sharktopoda) - A MacOS video player that integrates with vars-annotation. Allows users to localized annotations using bounding boxes by drawing directly on the video.
-  - [jsharktopda] - A cross-platform (MacOS, Windows, Linux) video player that integrates with vars-annotation.
 - [vars-gridview](https://github.com/mbari-org/vars-gridview) - A tool for reviewing and correcting VARS localizations in bulk
 - [vars-localize](https://github.com/mbari-org/vars-localize) - An tool for adding localizations to images.
