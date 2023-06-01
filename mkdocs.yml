@@ -1,9 +1,10 @@
-site_name: "MBARI's Video Annotation and Reference System"
+site_name: "MBARI's Video Annotation and Reference System (VARS)"
 theme:
     name: material
     logo: https://docs.mbari.org/imgs/mbari-logo.png
 extra_css:
     - https://docs.mbari.org/css/mbari.css
+    - assets/css/extras.css
 
 plugins:
   - search
