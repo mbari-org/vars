@@ -2,7 +2,7 @@
 
 ##### Note
 
-This is the start of public documentation for VARS and is currently a work-in-progress. For complete documentation is planned to be completed by the end of 2023.
+This is the start of public documentation for VARS and is currently a work-in-progress. Completed documentation is planned to be completed by the end of 2023.
 
 ## About VARS
 
