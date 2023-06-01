@@ -3,5 +3,7 @@ h5 {
 }
 
 h5 + p {
-  border-left: 2px solid #ccc;
+  border-left: 3px solid orangered;
+  padding: 10px;
+  background-color: darkgray;
 }
