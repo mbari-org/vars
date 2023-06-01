@@ -15,6 +15,7 @@ VARS was originally developed in 2004 to create and manage video annotations on 
 At the core of M3/VARS is a suite of web services. These services can be started using the [m3-quickstart](https://github.com/mbari-org/m3-quickstart) project. The individual services are:
 
 - [annosaurus](https://github.com/mbari-org/annosaurus) - A web-service for managing image and video annotations.
+- [beholder](https://github.com/mbari-org/beholder) - A web service for extracting individual frames from videos. 
 - [panoptes](https://github.com/mbari-org/panoptes) - A web-service for managing image archiving.
 - [pythia](https://github.com/mbari-org/pythia) - A web-service for automated image analysis using machine learning.
 - [raziel](https://github.com/mbari-org/raziel) - A centralized configuration server for VARS.
