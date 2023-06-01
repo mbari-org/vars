@@ -1,0 +1,7 @@
+h5 {
+  display: none;
+}
+
+h5 + p {
+  border-left: 2px solid #ccc;
+}
