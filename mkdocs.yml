@@ -1,0 +1,5 @@
+theme:
+    name: material
+    logo: https://docs.mbari.org/imgs/mbari-logo.png
+extra_css:
+    - https://docs.mbari.org/css/mbari.css
