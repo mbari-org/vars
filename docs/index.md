@@ -6,7 +6,7 @@ This is the start of public documentation for VARS and is currently a work-in-pr
 
 ## About VARS
 
-VARS was originally developed in 2004 to create and manage video annotations on video tape recorded from MBARI's remotely operated vehicles. Since then VARS has evolved into MBARI's Media Management system (M3) as a comprehensive set of applications for managing scientific video and image assets.
+VARS was originally developed in 2004 to create and manage video annotations on video tape recorded from MBARI's remotely operated vehicles. Since then, VARS has evolved into MBARI's Media Management system (M3), a comprehensive set of applications for managing scientific video and image assets.
 
 ## Code Repositories
 
@@ -32,6 +32,3 @@ These applications are used for various annotation operations.
   - [jsharktopda] - A cross-platform (MacOS, Windows, Linux) video player that integrates with vars-annotation.
 - [vars-gridview](https://github.com/mbari-org/vars-gridview) - A tool for reviewing and correcting VARS localizations in bulk
 - [vars-localize](https://github.com/mbari-org/vars-localize) - An tool for adding localizations to images.
-
-
-
