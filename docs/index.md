@@ -1,34 +1,23 @@
 # MBARI's Video Annotation and Reference System (VARS)
 
-## About VARS
+VARS is MBARI's platform for managing scientific video and image assets. Originally built in 2004 to annotate video from MBARI's remotely operated vehicles, it has evolved into a full media management system (M3) used by researchers to capture, annotate, query, and analyze underwater video and imagery.
 
-VARS was originally developed in 2004 to create and manage video annotations on video tape recorded from MBARI's remotely operated vehicles. Since then, VARS has evolved into MBARI's Media Management system (M3), a comprehensive set of applications for managing scientific video and image assets.
+## Key Capabilities
 
-## Setting up VARS
+- Time-indexed annotation of video observations
+- Video asset and metadata management
+- Taxonomic knowledge base for organisms, equipment, and geology
+- Frame extraction and image archiving
+- Automated image analysis using machine learning
+- Cross-service querying and bulk data retrieval
 
-MBARI has created the [m3-quickstart](https://github.com/mbari-org/m3-quickstart) project to help researchers quickly set up their own VARS servers and database.
+## Getting Started
 
-## Code Repositories
+MBARI provides the [vars-quickstart-public](https://github.com/mbari-org/vars-quickstart-public) project so that external teams can stand up their own VARS instance using Docker. See [Getting Started](getting-started.md) for prerequisites and an overview of the setup process.
 
-### Services
+## Explore the Docs
 
-At the core of M3/VARS is a suite of web services. These services can be started using the [m3-quickstart](https://github.com/mbari-org/m3-quickstart) project. The individual services are:
-
-- [annosaurus](https://github.com/mbari-org/annosaurus) - A web-service for managing image and video annotations.
-- [beholder](https://github.com/mbari-org/beholder) - A web service for extracting individual frames from videos. 
-- [panoptes](https://github.com/mbari-org/panoptes) - A web-service for managing image archiving.
-- [pythia](https://github.com/mbari-org/pythia) - A web-service for automated image analysis using machine learning.
-- [raziel](https://github.com/mbari-org/raziel) - A centralized configuration server for VARS.
-- [vampire-squid](https://github.com/mbari-org/vampire-squid) - A video asset manager
-- [oni](https://github.com/mbari-org/oni) - A knowlegebase server to provide consistent names for animals, equipment, geology, etc. Also provides a web service for access user accounts and preferences.
-
-### Applications
-
-These applications are used for various annotation operations.
-
-- [jsharktopda](https://github.com/mbari-org/jsharktopoda) - A cross-platform (MacOS, Windows, Linux) video player that integrates with vars-annotation.
-- [mondrian](https://github.com/mbari-org/mondrian) - An image annotation application (alpha-release)
-- [Sharktopda](https://github.com/mbari-org/Sharktopoda) - A MacOS video player that integrates with vars-annotation. Allows users to localized annotations using bounding boxes by drawing directly on the video.
-- [vars-annotation](https://github.com/mbari-org/vars-annotation) - A video annotation application
-- [vars-gridview](https://github.com/mbari-org/vars-gridview) - A tool for reviewing and correcting VARS localizations in bulk
-- [vars-localize](https://github.com/mbari-org/vars-localize) - An tool for adding localizations to images.
+- [Getting Started](getting-started.md) — prerequisites and setup overview
+- [Architecture](architecture.md) — how the system components fit together
+- [Services](services.md) — backend microservices reference
+- [Applications](applications.md) — client applications reference
