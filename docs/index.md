@@ -2,7 +2,9 @@
 
 VARS is MBARI's platform for managing scientific video and image assets. Originally built in 2004 to annotate video from MBARI's remotely operated vehicles, it has evolved into a full media management system (M3) used by researchers to capture, annotate, query, and analyze underwater video and imagery.
 
-## Key Capabilities
+MBARI provides the [vars-quickstart-public](https://github.com/mbari-org/vars-quickstart-public) project so that external teams can stand up their own VARS instance using Docker.
+
+## Capabilities
 
 - Time-indexed annotation of video observations
 - Video asset and metadata management
@@ -11,11 +13,7 @@ VARS is MBARI's platform for managing scientific video and image assets. Origina
 - Automated image analysis using machine learning
 - Cross-service querying and bulk data retrieval
 
-## Getting Started
-
-MBARI provides the [vars-quickstart-public](https://github.com/mbari-org/vars-quickstart-public) project so that external teams can stand up their own VARS instance using Docker. See [Getting Started](getting-started.md) for prerequisites and an overview of the setup process.
-
-## Explore the Docs
+## Documentation
 
 - [Getting Started](getting-started.md) — prerequisites and setup overview
 - [Architecture](architecture.md) — how the system components fit together

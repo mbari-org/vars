@@ -4,12 +4,18 @@ site_description = "MBARI's Video Annotation and Reference System (VARS)"
 site_author = "Brian Schlining"
 repo_name = "mbari-org/vars"
 repo_url = "https://github.com/mbari-org/vars"
+nav = [
+    { "Home" = "index.md" },
+    { "Getting Started" = "getting-started.md" },
+    { "Architecture" = "architecture.md" },
+    { "Services" = "services.md" },
+    { "Applications" = "applications.md" }
+]
 
 
 [project.theme]
 name = "material"
-logo = "assets/images/mbari-logo.png"
-# favicon = "assets/images/favicon.ico"
+logo = "assets/images/logo-mbari-3b.png"
 features = [
     "navigation.instant",
     "navigation.indexes",
@@ -42,10 +48,3 @@ toggle.name = "Switch to system preferences"
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
-
-[project.nav]
-"Home" = "index.md"
-"Getting Started" = "getting-started.md"
-"Architecture" = "architecture.md"
-"Services" = "services.md"
-"Applications" = "applications.md"
